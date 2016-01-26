@@ -1,13 +1,15 @@
 # Asynchronous job processing for every PHP project
 
+Easy integration of asynchronous job processing via message queues to any PHP project.
+
+# !!!!!!!!!!!! NOT YET WORKING !!!!!!!!!!!!
+
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
-
-Easy integration of asynchronous job processing via message queues to any PHP project.
 
 ### Highlights
 - Usable in all classes via traits
@@ -40,10 +42,6 @@ $ composer test
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
-
-## Security
-
-If you discover any security related issues, please email nwil79@gmail.com instead of using the issue tracker.
 
 ## Credits
 
