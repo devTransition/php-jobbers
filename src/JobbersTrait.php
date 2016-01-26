@@ -1,8 +1,9 @@
 <?php
 
-namespace devtransition\Jobbers;
+namespace devtransition\jobbers;
 
-trait JobbersTrait {
+trait JobbersTrait
+{
 
     /**
      * @return $this

@@ -1,12 +1,12 @@
 <?php
 
-namespace devtransition\Jobbers;
+namespace devtransition\jobbers;
 
-use devtransition\Jobbers\helper\DocBlock;
+use devtransition\jobbers\helper\DocBlock;
 use yii\helpers\VarDumper;
 
-class Proxy {
-
+class Proxy
+{
     private $_class;
     private $_method;
     private $_args;
@@ -16,7 +16,6 @@ class Proxy {
 
     /**
      * @param $class
-     * @return Job
      */
     public function __construct(&$class)
     {
@@ -28,7 +27,7 @@ class Proxy {
         $this->_method = $name;
         $this->_args = $arguments;
 
-        $this->prepareDefaults();
+        $this->_prepareDefaults();
 
         return new Job($this);
     }
@@ -53,7 +52,7 @@ class Proxy {
         return $this->_defaults;
     }
 
-    protected function prepareDefaults()
+    private function _prepareDefaults()
     {
         $helper = new DocBlock($this->_class);
 

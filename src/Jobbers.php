@@ -1,9 +1,9 @@
 <?php
 
-namespace devtransition\Jobbers;
+namespace devtransition\jobbers;
 
-class Jobbers {
-
+class Jobbers
+{
     /* @var Jobbers Singleton instance of Jobbers */
     private static $_instance;
 
@@ -15,27 +15,27 @@ class Jobbers {
         'timeout' => 10,
     ];
 
-    static public function isInit()
+    public static function isInit()
     {
         return (self::$_instance !== null);
     }
 
-    static public function init()
-    {
-        if (!self::$_instance) {
-            self::$_instance = new self;
-        }
-    }
-
-    static public function getInstance()
+    public static function getInstance()
     {
         return self::$_instance;
     }
 
-    static public function config($config)
+    public static function config($config)
     {
         self::init();
         self::$_instance->setConfig($config);
+    }
+
+    public static function init()
+    {
+        if (!self::$_instance) {
+            self::$_instance = new self;
+        }
     }
 
     public function getConfig()

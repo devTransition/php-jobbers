@@ -1,6 +1,6 @@
 <?php
 
-namespace devtransition\Jobbers;
+namespace devtransition\jobbers;
 
 use devtransition\Jobbers\exception\JobPendingException;
 
@@ -21,7 +21,7 @@ class Job
     {
         $this->_proxy = $proxy;
 
-        $this->applyOptions();
+        $this->_applyOptions();
 
         /*
          * generate 16 hex random id
@@ -50,7 +50,8 @@ class Job
 
     public function &run()
     {
-        $this->_result = call_user_func_array([$this->_proxy->getClass(), $this->_proxy->getMethod()], $this->_proxy->getArgs());
+        $this->_result = call_user_func_array([$this->_proxy->getClass(), $this->_proxy->getMethod()],
+            $this->_proxy->getArgs());
         return $this->_result;
     }
 
@@ -70,7 +71,7 @@ class Job
         return $this->_result;
     }
 
-    protected function applyOptions()
+    private function _applyOptions()
     {
         $defaults = $this->_proxy->getDefaults();
 
@@ -81,5 +82,4 @@ class Job
 
         /* TODO: Add Priority? */
     }
-
 }

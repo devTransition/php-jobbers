@@ -1,11 +1,12 @@
 <?php
 
-namespace devtransition\Jobbers\helper;
+namespace devtransition\jobbers\helper;
 
 use yii\base\Exception;
 use yii\helpers\VarDumper;
 
-class DocBlock {
+class DocBlock
+{
 
     private $_reflector;
 

@@ -1,8 +1,9 @@
 <?php
 
-namespace devtransition\Jobbers;
+namespace devtransition\jobbers;
 
-class Loader {
+class Loader
+{
 
     private $_classes = [];
     private $_registered = false;

@@ -1,11 +1,15 @@
 <?php
 
-namespace devtransition\Jobbers;
+namespace devtransition\jobbers;
 
-use devtransition\Jobbers\exception\DublciateException;
+use devtransition\jobbers\exception\DublciateException;
 
-class Pool {
+class Pool
+{
 
+    /**
+     * @var Job[]
+     */
     private $_jobs = [];
     private $_results = [];
 
@@ -28,7 +32,7 @@ class Pool {
         return true;
     }
 
-    public function &get($id=null)
+    public function &get($id = null)
     {
         if ($id) {
             if (!isset($this->_jobs[$id])) {
