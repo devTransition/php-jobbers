@@ -65,15 +65,15 @@ limitations under the License.
 
 [ico-version]: https://img.shields.io/packagist/v/devtransition/jobbers.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-Apache-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/devtransition/jobbers/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/devtransition/jobbers.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/devtransition/jobbers.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/devtransition/jobbers.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/devTransition/jobbers/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/devTransition/jobbers.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/devTransition/jobbers.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/devTransition/jobbers.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/devtransition/jobbers
-[link-travis]: https://travis-ci.org/devtransition/jobbers
-[link-scrutinizer]: https://scrutinizer-ci.com/g/devtransition/jobbers/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/devtransition/jobbers
-[link-downloads]: https://packagist.org/packages/devtransition/jobbers
-[link-author]: https://github.com/devtransition
+[link-travis]: https://travis-ci.org/devTransition/jobbers
+[link-scrutinizer]: https://scrutinizer-ci.com/g/devTransition/jobbers/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/devTransition/jobbers
+[link-downloads]: https://packagist.org/packages/devTransition/jobbers
+[link-author]: https://github.com/devTransition
 [link-contributors]: ../../contributors

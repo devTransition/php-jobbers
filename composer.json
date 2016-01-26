@@ -2,9 +2,14 @@
     "name": "devtransition/jobbers",
     "type": "library",
     "description": "Async job processing",
+    "keywords": [
+        "DevTransition",
+        ":package_name"
+    ],
+    "homepage": "https://github.com/devTransition/php-jobbers",
     "license": "Apache-2.0",
     "support": {
-        "issues": "https://github.com"
+        "issues": "https://github.com/devTransition/php-jobbers/issues"
     },
     "authors": [
         {
