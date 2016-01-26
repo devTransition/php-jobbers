@@ -3,8 +3,15 @@
     "type": "library",
     "description": "Async job processing",
     "keywords": [
-        "DevTransition",
-        ":package_name"
+        "yii",
+        "yii2",
+        "extension",
+        "amqp",
+        "RabbitMQ",
+        "queue",
+        "sync",
+        "background",
+        "job"
     ],
     "homepage": "https://github.com/devTransition/php-jobbers",
     "license": "Apache-2.0",
